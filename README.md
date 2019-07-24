@@ -1,2 +1,2 @@
 # go_bubble_sort
-Playing around with Golang.
+7/23/19 - Upload code to repo 
