@@ -11,13 +11,13 @@ func main(){
 }
 
 func sort(a []int){
-	var i int = 0
+	i := 0
 	for i < len(a){
-		var indexOne int = 0
-		var indexTwo int = 1
+		indexOne := 0
+		indexTwo := 1
 		for indexTwo < len(a){
-			var varOne int = a[indexOne]
-			var varTwo int = a[indexTwo]
+			varOne := a[indexOne]
+			varTwo := a[indexTwo]
 		
 			if varTwo < varOne{
 				a[indexTwo] = varOne
